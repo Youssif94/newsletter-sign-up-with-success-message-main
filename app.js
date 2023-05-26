@@ -25,6 +25,7 @@ function emailValidity() {
   } else {
     emailError.style.display = "block";
     submitBtn.style.cursor = "not-allowed";
+    submitBtn.style.backgroundColor = "hsl(235, 18%, 26%)";
   }
 }
 
